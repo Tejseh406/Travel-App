@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/ui/Footer";
 
 const font = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -23,6 +24,9 @@ export default function RootLayout({
         className={`${font.className} antialiased`}
       >
         {children}
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   );
