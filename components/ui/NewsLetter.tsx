@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const NewsLetter = () => {
   return (
-    <div className="max-w-[1250px] mx-auto">
+    <div className="max-w-[1240px] mx-auto">
       <div className="bg-(--green-cyan) h-auto  flex items-center rounded-lg px-4 pt-4 gap-6">
         
         {/* Left Section */}
