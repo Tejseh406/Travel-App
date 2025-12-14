@@ -17,7 +17,7 @@ const CardsData = [
 
 export default function Home() {
   return <section className="max-w-[1240px] mx-auto">
-    <div className="flex flex-col gap-3 sm:flex-row">
+    <div className="flex gap-3 xs:flex-row flex-col">
         {CardsData.map((card, index) => (
           <div key={index} className="w-full h-[400px] sm:w-1/2 mb-3">
             <Card 
