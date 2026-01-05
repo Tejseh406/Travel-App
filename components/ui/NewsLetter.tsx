@@ -5,7 +5,6 @@ const NewsLetter = () => {
   return (
     <div className="max-w-[1240px] mx-auto">
       <div className="bg-(--green-cyan) h-auto  flex items-center rounded-lg px-4 pt-4 gap-6">
-        
         {/* Left Section */}
         <div className="flex-1">
           <h2 className="text-2xl md:text-[44px] font-bold mb-2">
@@ -14,7 +13,8 @@ const NewsLetter = () => {
 
           <p className="text-sm md:text-xl opacity-80">The travel</p>
           <p className="text-xs md:text-base opacity-70">
-            Get inspired! Receive travel discounts, tips and behind-the-scenes stories.
+            Get inspired! Receive travel discounts, tips and behind-the-scenes
+            stories.
           </p>
 
           {/* Input + Button */}
@@ -37,7 +37,7 @@ const NewsLetter = () => {
             alt="news letter icon"
             className="object-contain"
             loading="lazy"
-          />    
+          />
         </div>
       </div>
     </div>
